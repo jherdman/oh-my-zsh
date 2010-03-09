@@ -2,7 +2,7 @@
 autoload -U compinit
 compinit
 
-bindkey -e
+#bindkey -e
 #bindkey '\ew' kill-region
 #bindkey -s '\el' "ls\n"
 #bindkey -s '\e.' "..\n"
