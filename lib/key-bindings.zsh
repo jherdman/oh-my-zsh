@@ -2,7 +2,7 @@
 autoload -U compinit
 compinit
 
-if [[ $EDITOR ! 'vim' ]] ; then
+if [[ "$EDITOR" != "vim" ]] ; then
   bindkey -e
   bindkey '\ew' kill-region
   bindkey -s '\el' "ls\n"
