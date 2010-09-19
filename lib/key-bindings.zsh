@@ -1,6 +1,6 @@
 # TODO: Explain what some of this does..
 autoload -U compinit
-compinit
+compinit -i
 
 if [[ "$EDITOR" != "vim" ]] ; then
   bindkey -e
